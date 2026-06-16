@@ -753,7 +753,7 @@ section { padding: var(--section-pad) 0; }
   :root { --section-pad: 52px; }
 
   .hero-layout { grid-template-columns: 1fr; }
-  .hero-image { display: none; }
+  .hero-image { max-width: 280px; margin: 0 auto; }
 
   .about-photos { grid-template-columns: 1fr; }
 
